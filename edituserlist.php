@@ -40,7 +40,7 @@ body {
   <table width="300" border="0" cellspacing="0" cellpadding="0">
 
         <?php
-require 'db.php';
+require 'templates/db.php';
 
 $result = $bdd->query('SELECT id, email,active,admin FROM users ORDER BY id');
 
