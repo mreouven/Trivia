@@ -1,0 +1,14 @@
+<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://goo.gl/maps/TKEHRmtuZtD2" class="icon alt fa-google"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/rubnet.fr/" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+						<!--<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>-->
+						<li><a href="https://mreouven.github.io/Trivia/" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="contactus.php" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Rubnet. All rights reserved.</li>
+					</ul>
+				</footer>
