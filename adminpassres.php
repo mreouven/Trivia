@@ -4,7 +4,8 @@ require_once 'templates/header.php';
 if ( $_SESSION['logged_in'] != 1 ) {
   $_SESSION['message'] = "You must log in before viewing the test!";
   header("location: error.php");    
-}
+} 
+
 else if ( $_SESSION['admin'] != 2 ) {
   $_SESSION['message'] = "Super Admin Only!";
   header("location: error.php");    
