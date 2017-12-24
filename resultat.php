@@ -51,6 +51,7 @@
       background-image: -webkit-linear-gradient(top, #3bc087, #428bca), url(img/overlay.png);}
 
     body, input, select, textarea {
+      font-family: "Roboto", Helvetica, sans-serif;
       color: rgb(14, 13, 13) !important ;
       text-align: center !important; 
 
