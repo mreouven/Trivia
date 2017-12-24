@@ -1,5 +1,5 @@
 s<?php 
-require 'db.php';
+require 'templates/db.php';
 require_once 'templates/header.php';
 
 if ( $_SESSION['logged_in'] != 1 ) {

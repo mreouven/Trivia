@@ -18,7 +18,7 @@ else {
     $active = $_SESSION['active'];
 	$level_user = $_SESSION['level_user'];
 }
-require 'db.php';
+require 'templates/db.php';
 
 $reponse = $bdd->query('SELECT * FROM question');
 $quesc=1;

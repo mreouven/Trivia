@@ -47,7 +47,7 @@ input[type="text"], input[type="password"], input[type="email"], select, textare
 <section id="formu">
 <B>Admin area - edit the quiz</B>
 <?php
-require 'db.php';
+require 'templates/db.php';
 
 if(isset($_GET['id'])){
   $id=$_GET['id'];
