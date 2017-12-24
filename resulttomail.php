@@ -1,5 +1,5 @@
 <?php
-require 'db.php';
+require 'templates/db.php';
 session_start();
 
 if ( $_SESSION['logged_in'] != 1 ) {
