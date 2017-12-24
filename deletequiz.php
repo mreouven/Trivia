@@ -26,7 +26,7 @@ body {
 </style>
 <center>
 <?php
-require 'db.php';
+require 'templates/db.php';
 if(isset($_GET['id'])){$id=$_GET['id'];}
 
 $mysqli->query("DELETE FROM question WHERE id=$id");

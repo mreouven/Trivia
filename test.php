@@ -1,5 +1,5 @@
 <?php  
-require 'db.php';
+require 'templates/db.php';
 session_start();
 
 use PHPMailer\PHPMailer\PHPMailer;
