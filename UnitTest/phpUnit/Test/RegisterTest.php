@@ -1,8 +1,8 @@
 <?php
 
-namespace phpUnitTutorial\Test;
+namespace phpUnit\Test;
 
-class Test extends \PHPUnit_Framework_TestCase
+class RegisterTest extends \PHPUnit_Framework_TestCase
 {
 	public function testTrueIsTrue()
 		{

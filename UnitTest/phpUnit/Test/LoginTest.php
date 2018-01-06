@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 require 'email.php';
 
 
-final class EmailTest extends TestCase
+final class LoginTest extends TestCase
 {
     public function testCanBeCreatedFromValidEmailAddress()
     {
