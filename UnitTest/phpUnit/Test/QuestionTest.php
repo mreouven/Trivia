@@ -2,7 +2,7 @@
 
 <?php
 
-namespace phpUnit\Test;
+//namespace phpUnit\Test;
 
 class QuestionTest extends \PHPUnit_Framework_TestCase
 {
