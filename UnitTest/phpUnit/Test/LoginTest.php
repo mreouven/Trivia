@@ -1,6 +1,7 @@
 <?php
 
-namespace phpUnit\Test;
+//namespace phpUnit\Test;
+include 'sessioncharge.php';
 
 class LoginTest extends \PHPUnit_Framework_TestCase
 {	
@@ -33,28 +34,12 @@ class LoginTest extends \PHPUnit_Framework_TestCase
 		
 	
 	
-	public function TestLeveluser()
-		{
-			$_SESSION['level_user'] = $user['level_user']
-			 $this->assertEquals(  $_SESSION['level_user'],$user['level_user']);
-		}
-	
-	
-	
 	public function TestAdmin()
 		{
 			$_SESSION['admin'] = $user['admin'];
 			$this->assertEquals(  $_SESSION['admin'],$user['admin']);
 		}
-	
-	
-	public function TestDate_quiz()
-		{
-			$_SESSION['date_quiz'] = strtotime($user['date_quiz']);
-			$this->assertEquals(  $_SESSION['date_quiz'],strtotime($user['date_quiz']);
-	
-		}
-	
+
 	
 	public function TestLogged_in()
 		{
@@ -63,9 +48,7 @@ class LoginTest extends \PHPUnit_Framework_TestCase
 		}
 	
 	
-		
-			
-			
+				
 		
 	
 	
