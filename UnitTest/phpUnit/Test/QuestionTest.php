@@ -6,11 +6,6 @@ namespace phpUnit\Test;
 
 class QuestionTest extends \PHPUnit_Framework_TestCase
 {
-	public function testTrueIsTrue()
-		{
-		    $foo = true;
-		    $this->assertTrue($foo);
-		}
 	public function testFnameIsEquals()
 		{
 		    $first_name = $_SESSION['first_name'];
