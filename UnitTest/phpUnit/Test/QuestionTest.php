@@ -3,10 +3,10 @@ session_start();
 include 'sessioncharge.php';
 //namespace phpUnit\Test;
 $first_name = $_SESSION['first_name'];
-    $last_name = $_SESSION['last_name'];
-    $email = $_SESSION['email'];
-    $active = $_SESSION['active'];
-	$level_user = $_SESSION['level_user'];
+$last_name = $_SESSION['last_name'];
+$email = $_SESSION['email'];
+   $active = $_SESSION['active'];
+$level_user = $_SESSION['level_user'];
 
 class QuestionTest extends \PHPUnit_Framework_TestCase
 {
